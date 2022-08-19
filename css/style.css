@@ -5,6 +5,7 @@
     color: #FF5733;
 }
 .about-title{
+    color: #222222;
     font-size: 3.75rem;
 }
 .about-paragraph{
@@ -35,8 +36,10 @@
     height: 31.73px;
 }
 .quote-title{
+    color: #222222;
     font-size: 3rem;
 }
 .quote-paragraph{
+    color: #888888;
     font-size: 1.125rem;
 }
