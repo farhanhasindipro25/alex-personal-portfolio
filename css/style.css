@@ -1,3 +1,42 @@
-.bg-circles{
-    background-image: url(../images/bg.png);
+.hrl{
+    opacity: 0.1;
+}
+.name{
+    color: #FF5733;
+}
+.about-title{
+    font-size: 3.75rem;
+}
+.about-paragraph{
+    color: #888888;
+    font-size: 18px;
+}
+.about-btn{
+    background-color: #FF5733;
+}
+.client-fb{
+    width: 9rem;
+    height: 1.72rem;
+}
+.client-tinder{
+    width: 5.82rem;
+    height: 2.05rem;
+}
+.client-airbnb{
+    width: 8.396rem;
+    height: 2.64rem;
+}
+.client-microsoft{
+    width: 155.48px;
+    height: 31.73px;
+}
+.client-hubspot{
+    width: 121.63px;
+    height: 31.73px;
+}
+.quote-title{
+    font-size: 3rem;
+}
+.quote-paragraph{
+    font-size: 1.125rem;
 }
