@@ -43,3 +43,20 @@
     color: #888888;
     font-size: 1.125rem;
 }
+.services-title{
+    font-size: 48px;
+}
+.highlighted-underline{
+    border-bottom: 3px solid #FF5733;
+}
+#service-title{
+    color: #222222;
+    font-size: 1.5rem;
+}
+#service-paragraph{
+    font-size: 1rem;
+    color: #888888;
+}
+#service-btn{
+    color: #FF5733;
+}
