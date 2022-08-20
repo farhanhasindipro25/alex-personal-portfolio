@@ -3,17 +3,21 @@
 }
 .name{
     color: #FF5733;
+    font-family: 'Noticia Text', serif;
 }
 .about-title{
     color: #222222;
     font-size: 3.75rem;
+    font-family: 'Noticia Text', serif;
 }
 .about-paragraph{
     color: #888888;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 .about-btn{
     background-color: #FF5733;
+    font-family: 'Roboto', sans-serif;
 }
 .client-fb{
     width: 9rem;
@@ -38,13 +42,16 @@
 .quote-title{
     color: #222222;
     font-size: 3rem;
+    font-family: 'Noticia Text', serif;
 }
 .quote-paragraph{
     color: #888888;
     font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif;
 }
 .services-title,.experience-title{
-    font-size: 48px;
+    font-size: 3rem;
+    font-family: 'Noticia Text', serif;
 }
 .highlighted-underline{
     border-bottom: 3px solid #FF5733;
@@ -52,13 +59,16 @@
 #service-title{
     color: #222222;
     font-size: 1.5rem;
+    font-family: 'Noticia Text', serif;
 }
 #service-paragraph,#experience-paragraph,#exp-stats-paragraph,#testimonial-paragraph {
     font-size: 1rem;
     color: #888888;
+    font-family: 'Roboto', sans-serif;
 }
 #service-btn{
     color: #FF5733;
+    font-family: 'Roboto', sans-serif;
 }
 #exp-stat-box{
     background-color: #F9F9F9;
@@ -67,21 +77,30 @@
 .exp-stats-title{
     color: #FF5733;
     font-size: 3rem;
+    font-family: 'Noticia Text', serif;
 }
 .work-position{
     font-size: 1.5rem;
     color: #888888;
+    font-family: 'Noticia Text', serif;
 }
 .work-place{
     font-size: 2.25rem;
     color: #222222;
+    font-family: 'Noticia Text', serif;
 }
 .time-place{
     font-size: 1rem;
     color: #888888;
+    font-family: 'Roboto', sans-serif;
 }
 .testimonial{
     background-color: #F9F9F9;
+}
+.testimonial-title{
+    color: #222222;
+    font-size: 3rem;
+    font-family: 'Noticia Text', serif;
 }
 .testimonial-btn{
     background-color: #EFEFEF;
@@ -111,41 +130,85 @@
     border-radius: 5px;
     padding: 3rem;
 }
+.projects-title{
+    font-size: 3rem;
+    font-family: 'Noticia Text', serif;
+}
 .project-title{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    font-family: 'Noticia Text', serif;
 }
 .project-description{
     font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif;
 }
 .footer-title{
     font-size: 1.5rem;
     color: #FF5733;
+    font-family: 'Noticia Text', serif;
 }
 .address,.phone{
     font-size: 1.125rem;
     color: #888888;
+    font-family: 'Roboto', sans-serif;
 }
 .footer-email{
     font-size: 3rem;
     color: #222222;
+    font-family: 'Noticia Text', serif;
 }
 .socials{
     color: #222222;
     font-size: 0.875rem;
+    font-family: 'Roboto', sans-serif;
 }
 .copyright{
     font-size: 0.875rem;
     color: #888888;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media only screen and (max-width: 667px) {
+    .about-title{
+        font-size: 2rem;
+    }
+    .quote-title{
+        font-size: 2rem;
+    }
+    .experience-title{
+        font-size: 1.5rem;
+    }
+    .exp-stats-title{
+        font-size: 1.5rem;
+    }
+    .services-title,.testimonial-title,.projects-title{
+        font-size: 1.875rem;
+    }
+    .work-place{
+        font-size: 1.75rem;
+    }
     .project-item {
         height: 370px;
+    }
+    .footer-email{
+        font-size: 1.125rem;
+    }
+    .copyright{
+        font-size: 0.75rem;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
+    .about-title{
+        font-size: 3rem;
+    }
+    .exp-stats-title{
+        font-size: 1.75rem;
+    }
     .project-item {
         height: 730px;
+    }
+    .footer-email{
+        font-size: 1.5rem;
     }
 }
